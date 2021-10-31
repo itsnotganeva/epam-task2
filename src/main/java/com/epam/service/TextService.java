@@ -29,7 +29,7 @@ public class TextService implements ITextService {
         Paragraph paragraph = text.getParagraph(paragraphNum);
         Sentence sentence = paragraph.getSentence(sentenceNum);
         LOGGER.debug("chooseSentence is called.");
-        LOGGER.debug("getText returns selected sentence: \n{}", sentence.getContent());
+        LOGGER.debug("chooseSentence returns selected sentence: \n{}", sentence.getContent());
         return sentence;
     }
 
